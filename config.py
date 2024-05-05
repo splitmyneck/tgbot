@@ -2,7 +2,7 @@ MAX_USERS = 3  # максимальное кол-во пользователей
 MAX_GPT_TOKENS = 120  # максимальное кол-во токенов в ответе GPT
 COUNT_LAST_MSG = 4  # кол-во последних сообщений из диалога
 
-HOME_DIR = 'tgbot'  # путь к папке с проектом
+HOME_DIR = '/home/student/tgbot'  # путь к папке с проектом
 LOGS = f'{HOME_DIR}/logs.txt'  # файл для логов
 DB_FILE = f'{HOME_DIR}/messages.db'  # файл для базы данных
 
