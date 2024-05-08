@@ -10,6 +10,10 @@ IAM_TOKEN_PATH = f'{HOME_DIR}/creds/iam_token.txt'  # файл для хране
 FOLDER_ID_PATH = f'{HOME_DIR}/creds/folder_id.txt'  # файл для хранения folder_id
 BOT_TOKEN_PATH = f'{HOME_DIR}/creds/bot_token.txt'  # файл для хранения bot_token
 
+IAM_TOKEN = IAM_TOKEN_PATH
+FOLDER_ID = FOLDER_ID_PATH
+BOT_TOKEN = BOT_TOKEN_PATH
+
 # лимиты для пользователя
 MAX_USER_STT_BLOCKS = 10  # 10 аудиоблоков
 MAX_USER_TTS_SYMBOLS = 5_000  # 5 000 символов
